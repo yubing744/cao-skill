@@ -3,25 +3,6 @@ name: cao
 description: CLI Agent Orchestrator - 专业级Agent编排和自动化任务管理系统，支持多Agent协作、任务分配、进度监控和结果收集
 license: MIT
 allowed-tools: [Read, Write, Edit, Bash, Task]
-metadata:
-  version: "2.1.0"
-  author: "Owen Wu"
-  tags: ["automation", "agent-orchestrator", "task-management", "claude-code", "codex", "kiro-cli", "upstream-contributions"]
-  dependencies: ["python3", "python3-requests", "gh-cli", "curl", "uvx"]
-  cao_api_base: "http://localhost:9889"
-  new_features:
-    - "Codex provider integration"
-    - "Kiro CLI provider support"
-    - "Inbox messaging system"
-    - "Optional provider selection"
-    - "Enhanced agent collaboration"
-    - "Upstream contribution best practices"
-    - "Open-AutoGLM integration case study"
-    - "🆕 Separated health check and installation commands"
-    - "🆕 uvx-based automatic CAO service installation"
-    - "🆕 Intelligent dependency management with fallback options"
-    - "🆕 Zero-configuration test version deployment"
-    - "🆕 Clear user control and explicit command separation"
 ---
 
 # CAO 专业技能
