@@ -11,14 +11,31 @@
 3. 点击安装
 4. 技能将自动安装到 `~/.claude/skills/cao/`
 
-### 方式二：手动安装
+### 方式二：OpenSkills 安装（推荐开发者）
+
+使用 OpenSkills 工具快速安装：
+
+```bash
+# 安装到当前项目
+openskills install https://github.com/yubing744/cao-skill.git
+
+# 或安装到全局环境
+openskills install --global https://github.com/yubing744/cao-skill.git
+
+# 或安装到通用目录（推荐）
+openskills install --universal https://github.com/yubing744/cao-skill.git
+```
+
+### 方式三：手动安装
 
 ```bash
 # 克隆技能到 Claude Code 技能目录
-git clone <cao-skill-repository-url> ~/.claude/skills/cao
+git clone https://github.com/yubing744/cao-skill.git ~/.claude/skills/cao
 
 # 或下载ZIP文件并解压
-unzip cao-skill.zip -d ~/.claude/skills/cao
+wget https://github.com/yubing744/cao-skill/archive/main.zip
+unzip main.zip -d ~/.claude/skills/cao
+mv ~/.claude/skills/cao/cao-skill-main ~/.claude/skills/cao/cao-skill
 ```
 
 ## 🎯 使用方法

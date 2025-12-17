@@ -42,10 +42,22 @@ CAO (CLI Agent Orchestrator) 是一个强大的Agent编排系统，可以管理�
 # 安装后技能位于：~/.claude/skills/cao/
 ```
 
-#### 方式二：手动安装
+#### 方式二：OpenSkills 安装（推荐开发者）
+```bash
+# 安装到当前项目
+openskills install https://github.com/yubing744/cao-skill.git
+
+# 安装到全局环境
+openskills install --global https://github.com/yubing744/cao-skill.git
+
+# 安装到通用目录（推荐）
+openskills install --universal https://github.com/yubing744/cao-skill.git
+```
+
+#### 方式三：手动安装
 ```bash
 # 克隆到 Claude Code 技能目录
-git clone <cao-skill-repository> ~/.claude/skills/cao
+git clone https://github.com/yubing744/cao-skill.git ~/.claude/skills/cao
 ```
 
 ### 🎯 使用方法
